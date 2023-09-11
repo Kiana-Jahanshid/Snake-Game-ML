@@ -1,8 +1,8 @@
 # SNAKE GAME with Machine Learning 
 
 <p float="center">
-    <img src  = "https://github.com/kiana-jahanshid/Snake-Game-ML/blob/main/assets/Capture6.JPG" width=530 /> 
-
+    <img src  = "https://github.com/kiana-jahanshid/Snake-Game-ML/blob/main/assets/Capture6.JPG" width=450 /> 
+    <img src  = "https://github.com/kiana-jahanshid/Snake-Game-ML/blob/main/assets/Capture5.JPG" width=450 /> 
 </p>
 
 ## description 
