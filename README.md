@@ -5,7 +5,7 @@
     <img src  = "https://github.com/kiana-jahanshid/Snake-Game-ML/blob/main/assets/Capture5.JPG" width=400 /> 
 </p>
 
-# description 
+# Description 
 In this game we let our Neural Network play the game , without user interfere . but first we need to get help from  if-else rules to be able to train our model . 
 
 # How to install 
