@@ -18,10 +18,10 @@ class Game(arcade.Window):
         self.flag = 1
         self.dataset = []
         self.model = tf.keras.models.load_model("weights\AIsnake_model.h5")
-        self.a = 0 
-        self.b = 0 
-        self.c = 0
-        self.d = 0
+        self.bodyp1 = 0 
+        self.bodyp2 = 0 
+        self.bodyp3 = 0
+        self.bodyp4 = 0
         self.snake.change_x = 0 
         self.snake.change_y = 0
 
@@ -46,7 +46,7 @@ class Game(arcade.Window):
         x_difference_as =float(self.snake.center_x - self.apple.center_x )
         y_difference_as =float(self.snake.center_y - self.apple.center_y )
         x_difference_ps =float(self.snake.center_x - self.pear.center_x )
-        y_difference_ps =float(self.snake.center_y - self.pear.center_y    ) 
+        y_difference_ps =float(self.snake.center_y - self.pear.center_y ) 
         
         snake_apple_dist = math.hypot(x_difference_as, y_difference_as) # mohasebe fasele oghlidosi beine mar va do ta mive , va entekhabe mive nazdik tar
         snake_pear_dist = math.hypot(x_difference_ps , y_difference_ps)
@@ -61,15 +61,15 @@ class Game(arcade.Window):
 
         for part in self.snake.body : 
             if self.snake.center_x == part["x"]  and  self.snake.center_y < part["y"]:
-                self.a  = part["y"]-self.snake.center_y
+                self.bodyp1  = abs(part["y"]-self.snake.center_y)
             if self.snake.center_x == part["x"]  and  self.snake.center_y > part["y"]:
-                self.b = part["y"]-self.snake.center_y
+                self.bodyp2 = abs(part["y"]-self.snake.center_y)
             if self.snake.center_x < part["x"]  and  self.snake.center_y == part["y"]:
-                self.c = part["x"]-self.snake.center_x 
+                self.bodyp3 = abs(part["x"]-self.snake.center_x)
             if self.snake.center_x > part["x"]  and  self.snake.center_y == part["y"]:
-                self.d = part["x"]-self.snake.center_x
+                self.bodyp4 = abs(part["x"]-self.snake.center_x)
 
-        data = np.array([[self.snake.center_x , self.snake.center_y , self.snake.change_x , self.snake.change_y  , snake_choice_binary , snake_choice.center_x , snake_choice.center_y , self.a , self.b , self.c ,  self.d ]])
+        data = np.array([[self.snake.center_x , self.snake.center_y , self.snake.change_x , self.snake.change_y  , snake_choice_binary , snake_choice.center_x , snake_choice.center_y , self.bodyp1 , self.bodyp2 , self.bodyp3 ,  self.bodyp4 ]])
         print(data)
         output = self.model.predict([data])
         direction = output.argmax()
