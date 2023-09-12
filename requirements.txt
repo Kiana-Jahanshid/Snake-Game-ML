@@ -2,3 +2,4 @@ arcade
 tensorflow
 pandas 
 numpy
+matplotlib
