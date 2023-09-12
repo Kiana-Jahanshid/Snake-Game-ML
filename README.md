@@ -45,10 +45,10 @@ python main_ML_snake.py
 Here is our loss and accuracy resuls :
 
 <p float="center">
-    <img src  = "https://github.com/kiana-jahanshid/Snake-Game-ML/blob/main/assets/ACCLOSS1.JPG" width=400 /> 
+    <img src  = "https://github.com/kiana-jahanshid/Snake-Game-ML/blob/main/assets/ACCLOSS1.JPG" width=500 /> 
 </p>
 
 <p float="center">
-    <img src  = "https://github.com/kiana-jahanshid/Snake-Game-ML/blob/main/assets/ACCLOSS.JPG" width=400 /> 
+    <img src  = "https://github.com/kiana-jahanshid/Snake-Game-ML/blob/main/assets/ACCLOSS.JPG" width=500 /> 
 </p>
 
