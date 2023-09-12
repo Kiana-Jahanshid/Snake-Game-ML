@@ -44,6 +44,12 @@ python main_ML_snake.py
 # RESULTS 
 Here is our loss and accuracy results :
 
+|| Accuracy  | Loss |
+| ------------ | ------------- | ------------- |
+train  | 0.999  | 0.003 |
+test   | 0.995  | 0.05  |
+
+
 <p float="center">
     <img src  = "https://github.com/kiana-jahanshid/Snake-Game-ML/blob/main/assets/ACCLOSS1.JPG" width=640 /> 
 </p>
