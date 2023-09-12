@@ -24,7 +24,6 @@ python Generate_dataset.py
 ```
 when you want to quit the game , press `Q` key on keyboard to exit the game .
 Now , our dataset has been created and is ready to use in the next part . 
-<<<<<<< HEAD
 
 + ## step2 :  Start training 
 Next step  , we use our dataset to train our Neural Network .
@@ -52,7 +51,6 @@ Here is our loss and accuracy results :
 <p float="center">
     <img src  = "https://github.com/kiana-jahanshid/Snake-Game-ML/blob/main/assets/ACCLOSS.JPG" width=600 /> 
 </p>
-=======
 
 + ## step2 :  Start training 
 Next step  , we use our dataset to train our Neural Network .
