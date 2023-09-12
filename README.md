@@ -42,13 +42,13 @@ python main_ML_snake.py
 ```
 
 # RESULTS 
-Here is our loss and accuracy resuls :
+Here is our loss and accuracy results :
 
 <p float="center">
-    <img src  = "https://github.com/kiana-jahanshid/Snake-Game-ML/blob/main/assets/ACCLOSS1.JPG" width=500 /> 
+    <img src  = "https://github.com/kiana-jahanshid/Snake-Game-ML/blob/main/assets/ACCLOSS1.JPG" width=600 /> 
 </p>
 
 <p float="center">
-    <img src  = "https://github.com/kiana-jahanshid/Snake-Game-ML/blob/main/assets/ACCLOSS.JPG" width=500 /> 
+    <img src  = "https://github.com/kiana-jahanshid/Snake-Game-ML/blob/main/assets/ACCLOSS.JPG" width=600 /> 
 </p>
 
