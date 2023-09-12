@@ -52,30 +52,3 @@ Here is our loss and accuracy results :
     <img src  = "https://github.com/kiana-jahanshid/Snake-Game-ML/blob/main/assets/ACCLOSS.JPG" width=600 /> 
 </p>
 
-+ ## step2 :  Start training 
-Next step  , we use our dataset to train our Neural Network .
-Hence , Run file `train.py` to start training . or else run this command :
-```
-python train.py
-```
-At the end , you can see the Accuracy & Loss results .
-
-+ ## step3 : play game using MLP
-In first step we played game using (if , else , ...) rules .
-Now it's time to play game using Multi-Layer Perceptron (MLP) , which is a Fully-Connected Artificial Neural Network . 
-For this , run `main_ML_snake.py` file or run below command :
-```
-python main_ML_snake.py
-```
-
-# RESULTS 
-Here is our loss and accuracy results :
-
-<p float="center">
-    <img src  = "https://github.com/kiana-jahanshid/Snake-Game-ML/blob/main/assets/ACCLOSS1.JPG" width=640 /> 
-</p>
-
-<p float="center">
-    <img src  = "https://github.com/kiana-jahanshid/Snake-Game-ML/blob/main/assets/ACCLOSS.JPG" width=600 /> 
-</p>
-
