@@ -18,12 +18,12 @@ pip install -r requirements.txt
 
 + ## step1 : generate dataset 
 For generating dataset , we should play game and collect some features during game . 
-first you have to run `Generate_dataset.py` , then a csv file will generated  , or else use this command :
+first you have to run `Generate_dataset.py` , then a csv file will be generated  , or else run this command :
 ```
 python Generate_dataset.py
 ```
 when you want to quit the game , press `Q` key on keyboard to exit the game .
-Now , our dataset has been created and ready to use in the next part . 
+Now , our dataset has been created and is ready to use in the next part . 
 
 + ## step2 :  Start training 
 Next step  , we use our dataset to train our Neural Network .
