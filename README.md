@@ -81,4 +81,3 @@ Here is our loss and accuracy results :
     <img src  = "https://github.com/kiana-jahanshid/Snake-Game-ML/blob/main/assets/ACCLOSS.JPG" width=600 /> 
 </p>
 
->>>>>>> ccab1d7901a32a6bd6bb553cde7cd61a555a8410
