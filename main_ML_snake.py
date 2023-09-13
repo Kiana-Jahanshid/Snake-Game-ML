@@ -17,7 +17,7 @@ class Game(arcade.Window):
         self.onion = Onion(self)
         self.flag = 1
         self.dataset = []
-        self.model = tf.keras.models.load_model("weights\AIsnake_model.h5")
+        self.model = tf.keras.models.load_model("weights/AIsnake_model.h5")
         self.bodyp1 = 0 
         self.bodyp2 = 0 
         self.bodyp3 = 0

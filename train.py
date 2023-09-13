@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
 
 
-df  = pd.read_csv("dataset\dataset.csv")
+df  = pd.read_csv("dataset/dataset.csv")
 df = df.fillna(0)
 df = df.astype(int)
 
@@ -29,7 +29,7 @@ model = tf.keras.models.Sequential([
 model.compile(optimizer= tf.keras.optimizers.Adamax() ,loss= tf.keras.losses.sparse_categorical_crossentropy , metrics=["accuracy"] )
 output = model.fit(X_train , Y_train , epochs=200)
 loss , acc =  model.evaluate(X_test , Y_test)
-model.save("weights\AIsnake_model.h5")
+model.save("weights/AIsnake_model.h5")
 
 print("TEST loss:" , loss)
 print("TEST accuracy:" ,acc)    
