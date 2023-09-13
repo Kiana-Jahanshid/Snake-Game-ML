@@ -61,13 +61,13 @@ class Game(arcade.Window):
 
         for part in self.snake.body : 
             if self.snake.center_x == part["x"]  and  self.snake.center_y < part["y"]:
-                self.bodyp1  = part["y"]-self.snake.center_y
+                self.bodyp1  = abs(part["y"]-self.snake.center_y)
             if self.snake.center_x == part["x"]  and  self.snake.center_y > part["y"]:
-                self.bodyp2 = part["y"]-self.snake.center_y
+                self.bodyp2 = abs(part["y"]-self.snake.center_y)
             if self.snake.center_x < part["x"]  and  self.snake.center_y == part["y"]:
-                self.bodyp3 = part["x"]-self.snake.center_x
+                self.bodyp3 = abs(part["x"]-self.snake.center_x)
             if self.snake.center_x > part["x"]  and  self.snake.center_y == part["y"]:
-                self.bodyp4 = part["x"]-self.snake.center_x
+                self.bodyp4 = abs(part["x"]-self.snake.center_x)
 
         data = np.array([[self.snake.center_x , self.snake.center_y , self.snake.change_x , self.snake.change_y  , snake_choice_binary , snake_choice.center_x , snake_choice.center_y , self.bodyp1 , self.bodyp2 , self.bodyp3 ,  self.bodyp4 ]])
         print(data)
